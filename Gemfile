@@ -32,9 +32,9 @@ gem 'sdoc', '~> 1.0.0', group: :doc
 # Locking i18n gem version
 gem 'i18n', '~> 0.9.5'
 
-gem 'spree', '~> 3.4.4'
-gem 'spree_auth_devise', '~> 3.3'
-gem 'spree_gateway', '~> 3.3'
+gem 'spree', '~> 4.1.7'
+gem 'spree_auth_devise', '~> 4.0', '>= 4.0.0'
+gem 'spree_gateway', '~> 3.6', '>= 3.6.0'
 gem 'active_model_serializers'
 gem 'httpclient'
 gem 'dotenv-rails'
