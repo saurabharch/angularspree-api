@@ -13,7 +13,7 @@ gem 'coffee-rails', '4.2.2'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '4.3.1'
+gem 'jquery-rails', '4.4.0'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '5.1.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -32,12 +32,12 @@ gem 'sdoc', '~> 1.0.0', group: :doc
 # Locking i18n gem version
 gem 'i18n', '~> 0.9.5'
 
-gem 'spree', '~> 3.4.4'
-gem 'spree_auth_devise', '~> 3.3'
-gem 'spree_gateway', '~> 3.3'
-gem 'active_model_serializers'
+gem 'spree', '~> 3.4.5'
+gem 'spree_auth_devise', '~> 3.3', '>= 3.3.3'
+gem 'spree_gateway', '~> 3.3', '>= 3.3.2'
+gem 'active_model_serializers', '>= 0.10.7'
 gem 'httpclient'
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.2.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,7 +47,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
