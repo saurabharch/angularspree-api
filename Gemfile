@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.4'
+gem 'rails', '6.0.3.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.7'
 # Use Uglifier as compressor for JavaScript assets
@@ -32,9 +32,9 @@ gem 'sdoc', '~> 1.0.0', group: :doc
 # Locking i18n gem version
 gem 'i18n', '~> 0.9.5'
 
-gem 'spree', '~> 3.4.4'
-gem 'spree_auth_devise', '~> 3.3'
-gem 'spree_gateway', '~> 3.3'
+gem 'spree', '~> 4.0.0'
+gem 'spree_auth_devise', '~> 4.0', '>= 4.0.0'
+gem 'spree_gateway', '~> 3.6', '>= 3.6.0'
 gem 'active_model_serializers'
 gem 'httpclient'
 gem 'dotenv-rails'
